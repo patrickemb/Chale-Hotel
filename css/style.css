@@ -66,26 +66,68 @@ body {
     margin-right: 15px;
 }
 
-.local {
+.menu-locais {
     border-bottom: 1px solid #b5ab56;
     border-top: 1px solid #b5ab56;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #8b8448;
     font-size: 1.0em;
+}
+
+.menu-locais .locais {
+    float: left;
+    line-height: 2.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.reserva {
+    
+    background: #a29750;
+    color: #fff5b0;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    float: right;
+    border-radius: 2.5px;
     font-weight: bold;
 }
 
-.local a{
-    
-    background: #8b8448;
-    color: #ede9cc;
-    text-decoration: none;
-    padding: 1px 15px 1px 15px;
-    float: right;
-    border-radius: 2.5px;
+#menu {
+    margin-top: 15px;
+}
+
+.navegacao {
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #6e672c;
+    padding: 5%;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.navegacao a:hover {
+    background: #fdf6be;
     
 }
+
+#menu img {
+    float: right;
+    width: 226px;
+    height: 164px;
+}
+
+
 
 
 
