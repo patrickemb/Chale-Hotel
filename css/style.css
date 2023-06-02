@@ -6,7 +6,6 @@
 body {
     font-family: 'Arima', cursive, Arial, Helvetica, sans-serif;
     background: #fff url(../imagens/bg.png);
-    /*margin: 15px;*/
 
 }
 
@@ -134,10 +133,14 @@ li {
     width: 50%;
 }
 
-.conteudo {
+.conteudo-principal, #conteudo-lateral {
     margin: 0 auto;
     width: 90%;
+    
 }
+
+/*Formatação da área lateral*/
+
 
 #area-lateral {
     float: right;
@@ -147,8 +150,73 @@ li {
     padding: 20px 0px;
 }
 
+.descricao-imagens li{
+    border-bottom: 1px solid #f3efcb;
+    padding: 8px;
+    min-height: 154.5px;
+}
+
+.descricao-imagens li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+img.servicos {
+    width: 240px;
+    float: left;
+    margin-right: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/*Formatação de textos*/
+
+.titulo {
+    color: #7d7640;
+    font-size: 1.3em;
+    text-shadow: -1px -1px 0px #fdf6be;
+    background: url(../imagens/ornamento.png)no-repeat center right;
+}
+
+.conteudo-principal h2 {
+    color: #7d7640;
+    text-shadow: -1px -1px 0px #b5ab56;
+    font-family: Dancing Script;
+    font-size: 2.0em;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    color: #000;
+}
+
+.descricao-imagens li a p {
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+hr {
+    border: 0.5px solid #ada779;
+    margin: 15px auto;
+}
+
+/*Rodapé*/
+
 #rodape {
     clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+#rodape {
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 
