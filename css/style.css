@@ -5,12 +5,12 @@
 
 body {
     font-family: 'Arima', cursive, Arial, Helvetica, sans-serif;
-    background: #fff url(/imagens/bg.png);
+    background: #fff url(./imagens/bg.png);
 
 }
 
 #container {
-    background: #ede9cc url(/imagens/bg-container.png) top center repeat-y;
+    background: #ede9cc url(./imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1185px;
@@ -27,7 +27,7 @@ body {
 }
 
 #area-logo {
-    background: url(/imagens/topo-imagem-principal.png)no-repeat;
+    background: url(./imagens/topo-imagem-principal.png)no-repeat;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -37,7 +37,7 @@ body {
 }
 
 .logo a{
-    background: url(/imagens/logo.png)no-repeat;
+    background: url(./imagens/logo.png)no-repeat;
     position: absolute;
     text-indent: -9000px;
     margin-left: 15px;
@@ -48,7 +48,7 @@ body {
 }
 
 #area-menu {
-    background: url(/imagens/topo-imagem-lateral.png)no-repeat;
+    background: url(./imagens/topo-imagem-lateral.png)no-repeat;
     z-index: 2;
     width: 450px;
     height: 250px;
@@ -127,7 +127,7 @@ li {
 }
 
 #area-principal {
-    background: url(/imagens/bg-area-principal.png) top center repeat-x;
+    background: url(./imagens/bg-area-principal.png) top center repeat-x;
     float: left;
     padding: 15px 0px;
     width: 50%;
@@ -146,7 +146,7 @@ li {
     float: right;
     width: 50%;
     
-    background: url(/imagens/bg-area-lateral.png) top center repeat-x;
+    background: url(./imagens/bg-area-lateral.png) top center repeat-x;
     padding: 20px 0px;
 }
 
@@ -177,7 +177,7 @@ img.servicos {
     color: #7d7640;
     font-size: 1.3em;
     text-shadow: -1px -1px 0px #fdf6be;
-    background: url(/imagens/ornamento.png)no-repeat center right;
+    background: url(./imagens/ornamento.png)no-repeat center right;
 }
 
 .conteudo-principal h2 {
@@ -209,7 +209,7 @@ hr {
 #rodape {
     clear: both;
     padding: 16px;
-    background: #fff url(/imagens/bg-rodape.png) repeat-x top;
+    background: #fff url(./imagens/bg-rodape.png) repeat-x top;
     color: #7d7640;
 }
 
