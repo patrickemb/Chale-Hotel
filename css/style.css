@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    background: #ede9cc url(/imagens/bg-container.png) top center repeat-y;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1185px;
@@ -127,7 +127,7 @@ li {
 }
 
 #area-principal {
-    background: url(/imagens/bg-area-principal.png) top center repeat-x;
+    background: url(../imagens/bg-area-principal.png) top center repeat-x;
     float: left;
     padding: 15px 0px;
     width: 50%;
@@ -146,7 +146,7 @@ li {
     float: right;
     width: 50%;
     
-    background: url(/imagens/bg-area-lateral.png) top center repeat-x;
+    background: url(../imagens/bg-area-lateral.png) top center repeat-x;
     padding: 20px 0px;
 }
 
